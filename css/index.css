@@ -44,14 +44,33 @@ dd {
 }
 
 .search_bar input {
-  margin-right: 23px;
+  margin-right: 10px;
   width: 296px;
   height: 34px;
-  border-radius: 17px;
+  
   border: 0px;
-  background: url("../images/zoom.png") 265px center no-repeat rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.45);
   text-indent: 15px;
   outline: none;
+}
+
+.search_bar button {
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.45);
+  /* 背景颜色 */
+  cursor: pointer;
+  /* 鼠标移入按钮范围时出现手势 */
+  outline: none;
+  /* 不显示轮廓线 */
+  height: 34px;
+  width: 68px;
+  font-size: 16px;
+  
+}
+
+.search_bar button:hover {
+  background: #1eacda;
+
 }
 
 .center_con {
